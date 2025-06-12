@@ -1,13 +1,13 @@
-# Selenium Web Automation – Java
+# QA Java Framework
 
-Automated web tests using Selenium WebDriver, Java, and TestNG.
+Basic Selenium + Java + TestNG automation framework with WebDriverManager.
 
-## Requirements
-- Java 11+
-- Maven
-- IntelliJ IDEA or Eclipse
+## Features
+- Maven project structure
+- Uses TestNG as test runner
+- Chrome browser setup with WebDriverManager
+- Sample test that opens Google and verifies the title
 
-## Run tests
-```bash
-mvn test
-```
+## How to Run
+1. Import project in IntelliJ or Eclipse
+2. Execute `testng.xml` as TestNG suite
