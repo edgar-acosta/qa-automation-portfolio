@@ -1,13 +1,18 @@
-# Mobile Testing with Appium + Python
+# QA Python Framework
 
-Automated test scripts for Android apps using Appium and unittest.
+Basic automation testing framework using Selenium and unittest in Python.
+
+## Features
+- Page Object Model (POM) structure
+- Built-in test discovery with `unittest`
+- Sample Google test included
 
 ## Requirements
-- Python 3.9+
-- Appium
-- Android Studio (emulator)
-
-## Setup
 ```bash
 pip install -r requirements.txt
+```
+
+## Run tests
+```bash
+python -m unittest discover tests
 ```
